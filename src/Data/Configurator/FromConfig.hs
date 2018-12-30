@@ -1,0 +1,1 @@
+module Data.Configurator.FromConfig where
