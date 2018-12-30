@@ -34,6 +34,9 @@ dependencies:
 - base >= 4.7 && < 5
 - configurator
 - universum
+- free
+- unordered-containers
+- th-extra
 
 library:
   source-dirs: src

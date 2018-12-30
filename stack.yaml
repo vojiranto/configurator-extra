@@ -34,6 +34,11 @@ resolver: lts-13.0
 #  - wai
 packages:
 - .
+
+extra-deps:
+  - git: https://github.com/vojiranto/th-extra.git
+    commit: 978f47422ee3b0a296c78c3a1e79be936aa4e539
+  
 # Dependency packages to be pulled from upstream that are not in the resolver
 # using the same syntax as the packages field.
 # (e.g., acme-missiles-0.3)
